@@ -29,7 +29,46 @@
 </head>
 <body>
     <header class="container-fluid bg-primary">
-        
+        <div class="container h-100 d-flex justify-content-start align-items-center gap-3">
+            <div class="h-100 p-2">
+                <img 
+                    src="/asset/icon/flipkart-header.svg"
+                    alt="flipkart"
+                    class="h-100 "
+                    tabindex="0"
+                    role="img"
+                >
+            </div>
+
+            <input 
+                type="text" 
+                class="searchbar d-none d-lg-block flex-grow-1 border-0 h-50 p-3 pe-5"
+                placeholder="Search for product, brands and more"
+                aria-label="Search for product, brands and more"
+            >
+            
+            <button class="btn btn-light text-primary fw-medium rounded-0 px-5 py-1 ms-auto">
+                Login
+            </button>
+
+            <a 
+                href="" 
+                class="d-none d-sm-flex align-items-center gap-2 text-decoration-none text-light px-3"
+                role="button"
+            >
+                <span class="fw-medium">More</span>
+                <img src="/asset/icon/dropdown.svg" role="img" alt="Down arrow">
+            </a>
+
+            <a 
+                href="" 
+                class="d-none d-md-flex align-items-center gap-2 text-decoration-none text-light px-3"
+                role="button"
+            >
+                <img src="/asset/icon/cart.svg" role="img" alt="Shopping cart">
+                <span class="fw-medium">Cart</span>
+            </a>
+        </div>
     </header>
 </body>
 </html>
