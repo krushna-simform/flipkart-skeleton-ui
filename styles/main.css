@@ -10,11 +10,11 @@ body {
     font-size: 0.9rem;
 }
 
-.product-section-1, .product-section-3 {
+.product-section-1 {
     height: 22rem;
 }
 
-.product-section-2, .product-section-4 {
+.product-section-2 {
     max-width: 100%;
 }
 
