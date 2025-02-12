@@ -5,3 +5,23 @@
 .categories>span {
     font-size: 0.9rem;
 }
+
+.product-section {
+    background-color: #f1f2f4;
+}
+
+.product-section-1 {
+    height: 22rem;
+}
+
+.product-section-2 {
+    max-width: 100%;
+}
+
+.announcement {
+    height: 4rem;
+}
+
+.clock-img {
+    width: 1.5rem;
+}
