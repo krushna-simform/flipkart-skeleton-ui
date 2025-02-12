@@ -22,6 +22,14 @@ body {
     height: 4rem;
 }
 
+.announcement-1 {
+    height: 4.5rem;
+}
+
+.offer-card {
+    cursor: pointer;
+}
+
 .clock-img {
     width: 1.5rem;
 }
