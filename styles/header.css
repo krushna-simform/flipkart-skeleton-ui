@@ -10,13 +10,15 @@ header {
     outline: none;
 }
 
-.searchbar-div>img {
+.searchbar-div>button {
     width: 1.3rem;
-    top: 0.3rem;
+    top: 0.2rem;
     bottom: 0;
     right: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: auto;
-    cursor: pointer;
 }
 
 .searchbar::placeholder {
