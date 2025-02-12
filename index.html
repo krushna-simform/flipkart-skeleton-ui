@@ -1,175 +1,298 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Flipkart Skeleton UI - This Project is a single-page skeleton UI clone of flipkart's main page.">
-        <meta name="keywords" content="Flipkart, UI, Skeleton, Design">
-        <meta name="author" content="Krushna Rathod">
-        
-        <title>Flipkart Skeleton UI</title>
-
-        <!-- Open graph meta taga -->
-        <meta property="og:title" content="Flipkart Skeleton UI">
-        <meta property="og:description" content="Flipkart Skeleton UI - This Project is a single-page skeleton UI clone of flipkart's main page.">
-        <meta property="og:type" content="website">
-        <meta property="og:image" content="/assets/image/flipkart_cover_page.jpg">
-
-        <!-- Twitter meta tags -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Flipkart Skeleton UI">
-        <meta name="twitter:description" content="Flipkart Skeleton UI - This Project is a single-page skeleton UI clone of flipkart's main page.">
-        <meta name="twitter:image" content="/assets/image/flipkart_cover_page.jpg"> 
-
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-        <link rel="icon" href="/assets/icon/flipkart.svg">
-        <link rel="stylesheet" href="/styles/header.css">
-        <link rel="stylesheet" href="/styles/main.css">
-    </head>
-    <body>
-        <header class="container-fluid bg-primary">
-            <div class="container h-100 d-flex justify-content-start align-items-center gap-3">
-                <a href="#" class="h-100 p-2" role="button">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Flipkart Skeleton UI - This Project is a single-page skeleton UI clone of flipkart's main page.">
+    <meta name="keywords" content="Flipkart, UI, Skeleton, Design">
+    <meta name="author" content="Krushna Rathod">
+    
+    <title>Flipkart Skeleton UI</title>
+    <!-- Open graph meta taga -->
+    <meta property="og:title" content="Flipkart Skeleton UI">
+    <meta property="og:description" content="Flipkart Skeleton UI - This Project is a single-page skeleton UI clone of flipkart's main page.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/assets/image/flipkart_cover_page.jpg">
+    <!-- Twitter meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Flipkart Skeleton UI">
+    <meta name="twitter:description" content="Flipkart Skeleton UI - This Project is a single-page skeleton UI clone of flipkart's main page.">
+    <meta name="twitter:image" content="/assets/image/flipkart_cover_page.jpg"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="icon" href="/assets/icon/flipkart.svg">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+    <header class="container-fluid bg-primary">
+        <div class="container h-100 d-flex justify-content-start align-items-center gap-3">
+            <a href="#" class="h-100 p-2" role="button">
+                <img 
+                    src="/assets/icon/flipkart-header.svg"
+                    alt="flipkart"
+                    class="h-100 "  
+                >
+            </a>
+            <div class="searchbar-div flex-grow-1 h-50 d-none d-lg-block position-relative">
+                <input 
+                    type="text" 
+                    class="searchbar w-100 h-100 border-0 focus-ring focus-ring-dark rounded-1 p-3 pe-5"
+                    placeholder="Search for product, brands and more"
+                    aria-label="Search for product, brands and more"
+                >
+                <button class="position-absolute bg-transparent p-0 border-0">
                     <img 
-                        src="/assets/icon/flipkart-header.svg"
-                        alt="flipkart"
-                        class="h-100 "  
+                    src="/assets/icon/search.svg" 
+                    alt="Search"
+                    aria-label="Search icon"
                     >
+                </button>
+            </div>
+            
+            <button class="btn btn-light text-primary fw-medium rounded-0 px-5 py-1 rounded-1 ms-auto">
+                Login
+            </button>
+            <a 
+                href="#" 
+                class="d-none d-sm-flex align-items-center gap-2 text-decoration-none text-light px-3"
+                role="button"
+            >
+                <span class="fw-medium">More</span>
+                <img src="/assets/icon/dropdown.svg" alt="Down arrow">
+            </a>
+            <a 
+                href="#" 
+                class="d-none d-md-flex align-items-center gap-2 text-decoration-none text-light px-3"
+                role="button"
+            >
+                <img src="/assets/icon/cart.svg" alt="Shopping cart">
+                <span class="fw-medium">Cart</span>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid bg-white">
+            <div class="container d-flex justify-content-evenly align-items-center p-2 gap-5  overflow-x-auto">
+                <a 
+                    href="#" 
+                    class="categories d-flex flex-column align-items-center justify-content-center text-black text-decoration-none"
+                    aria-label="Categorie Grocery"
+                    role="button"
+                >
+                    <img src="/assets/image/categories/grocery.svg" alt="Grocery">
+                    <span>Grocery</span>
                 </a>
 
-                <div class="searchbar-div flex-grow-1 h-50 d-none d-lg-block position-relative">
-                    <input 
-                        type="text" 
-                        class="searchbar w-100 h-100 border-0 focus-ring focus-ring-dark rounded-1 p-3 pe-5"
-                        placeholder="Search for product, brands and more"
-                        aria-label="Search for product, brands and more"
-                    >
-                    <button class="position-absolute bg-transparent p-0 border-0">
-                        <img 
-                        src="/assets/icon/search.svg" 
-                        alt="Search"
-                        aria-label="Search icon"
+                <a 
+                    href="#" 
+                    class="categories d-flex flex-column align-items-center justify-content-center text-black text-decoration-none"
+                    aria-label="Categorie Mobiles"
+                    role="button"
+                >
+                    <img src="/assets/image/categories/mobiles.svg" alt="Mobiles">
+                    <span>Mobiles</span>
+                </a>
+
+                <a 
+                    href="#" 
+                    class="categories d-flex flex-column align-items-center justify-content-center text-black text-decoration-none"
+                    aria-label="Categorie Fashion"
+                    role="button"
+                >
+                    <img src="/assets/image/categories/fashion.svg" alt="Fashion">
+                    <span>Fashion</span>
+                </a>
+
+                <a 
+                    href="#" 
+                    class="categories d-flex flex-column align-items-center justify-content-center text-black text-decoration-none"
+                    aria-label="Categorie Electronics"
+                    role="button"
+                >
+                    <img src="/assets/image/categories/electronics.svg" alt="Fashion">
+                    <span>Electronics</span>
+                </a>
+
+                <a 
+                    href="#" 
+                    class="categories d-flex flex-column align-items-center justify-content-center text-black text-decoration-none"
+                    aria-label="Categorie Home"
+                    role="button"
+                >
+                    <img src="/assets/image/categories/home.svg" alt="Home">
+                    <span>Home</span>
+                </a>
+
+                <a 
+                    href="#" 
+                    class="categories d-flex flex-column align-items-center justify-content-center text-black text-decoration-none"
+                    aria-label="Categorie Appliances"
+                    role="button"
+                >
+                    <img src="/assets/image/categories/appliances.svg" alt="Appliances">
+                    <span>Appliances</span>
+                </a>
+
+                <a 
+                    href="#" 
+                    class="categories d-flex flex-column align-items-center justify-content-center text-black text-decoration-none"
+                    aria-label="Categorie Travel"
+                    role="button"
+                >
+                    <img src="/assets/image/categories/travel.svg" alt="Travel">
+                    <span>Travel</span>
+                </a>
+                
+                <a 
+                    href="#" 
+                    class="categories d-flex flex-column align-items-center justify-content-center text-black text-decoration-none"
+                    aria-label="Categorie Beauty, Toys & more"
+                    role="button"
+                >
+                    <img src="/assets/image/categories/beauty-toys.svg" alt="Beauty, Toys & more">
+                    <span>Beauty, Toys & more</span>
+                </a>
+            </div>
+        </div>
+        <div class="product-section container-fluid p-2">
+            <div class="product-section-1 container my-2 d-flex gap-2 p-0">
+                <div class="product-section-2 flex-grow-1 bg-white d-flex flex-column justify-content-start position-relative overflow-hidden">
+                    <div class="announcement border-bottom px-3 d-flex align-items-center justify-content-between">
+                        <p class="d-flex align-items-center justify-content-center gap-2 m-0">
+                            <span class="fs-4">Deals of the Day</span>
+                            <img 
+                                src="/assets/icon/clock.svg" 
+                                class="clock-img ms-2 ratio-1x1" 
+                                alt="">
+                            <span class="text-secondary">22 : 07 : 36 Left</span>
+                        </p>
+                        <button class="d-none d-sm-block btn rounded-1 btn-primary fw-medium px-4 py-2">
+                            VIEW ALL
+                        </button>
+                    </div>
+                    <div class="product-feed-1 flex-grow-1 d-flex gap-5 p-3" id>
+                        <a 
+                            href="#"
+                            class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                            role="button"
+                            aria-labelledby="product-watch"
+                        >
+                            <div class="product-feed-image">
+                                <img 
+                                    src="/assets/image/products/watch.png" 
+                                    alt="watch"
+                                    class="w-100 h-100 object-fit-contain"
+                                    loading="lazy"
+                                >
+                            </div>
+                            <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-watch">Casio, Fastrack, Sonata...</p>
+                            <p class="product-font-size m-0 text-success">Upto 80%+Extra 10%Off</p>
+                            <p class="product-font-size m-0 text-secondary">Knockout Deals!</p>
+                        </a>
+                        
+                        <a 
+                            href="#"
+                            class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                            role="button"
+                            aria-labelledby="product-home-temple"
+                        >
+                            <div class="product-feed-image">
+                                <img 
+                                    src="/assets/image/products/temple.png" 
+                                    alt="home temple"
+                                    class="w-100 h-100 object-fit-contain"
+                                    loading="lazy"
+                                >
+                            </div>
+                            <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-home-temple">Home temples & more</p>
+                            <p class="product-font-size m-0 text-success">Extra 10% off</p>
+                            <p class="product-font-size m-0 text-secondary">Space Saving furniture</p>
+                        </a>
+
+                        <a 
+                            href="#"
+                            class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                            role="button"
+                            aria-labelledby="product-tablet-cases"
+                        >
+                            <div class="product-feed-image">
+                                <img 
+                                    src="/assets/image/products/tablet-cover.png" 
+                                    alt="teblet case"
+                                    class="w-100 h-100 object-fit-contain"
+                                    loading="lazy"
+                                >
+                            </div>
+                            <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-tablet-cases">Premium Tablet Cases</p>
+                            <p class="product-font-size m-0 text-success">Extra 10% Off</p>
+                            <p class="product-font-size m-0 text-secondary">For All Top Models</p>
+                        </a>
+
+                        <a 
+                            href="#"
+                            class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                            role="button"
+                            aria-labelledby="product-home-decoration"
+                        >
+                            <div class="product-feed-image">
+                                <img 
+                                    src="/assets/image/products/home-decoration.png" 
+                                    alt="home decoration"
+                                    class="w-100 h-100 object-fit-contain"
+                                    loading="lazy"
+                                >
+                            </div>
+                            <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-home-decoration">Best Of Home Decor</p>
+                            <p class="product-font-size m-0 text-success">From ₹79</p>
+                            <p class="product-font-size m-0 text-secondary">Lowest Price Ever</p>
+                        </a>
+
+                        <a 
+                            href="#"
+                            class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                            role="button"
+                            aria-labelledby="product-lava-keypad-mobile"
+                        >
+                            <div class="product-feed-image">
+                                <img 
+                                    src="/assets/image/products/keypad-phone.png" 
+                                    alt="lava keypad mobile"
+                                    class="w-100 h-100 object-fit-contain"
+                                    loading="lazy"
+                                >
+                            </div>
+                            <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-lava-keypad-mobile">LAVA A1500</p>
+                            <p class="product-font-size m-0 text-success">Flat ₹830 Off</p>
+                            <p class="product-font-size m-0 text-secondary">Now ₹999</p>
+                        </a>
+                    </div>
+
+                    <button class="btn btn-light fw-semibold shadow-lg rounded-0 fs-3 position-absolute top-0 bottom-0 end-0 my-auto px-2 h-25">
                         >
                     </button>
                 </div>
-                
-                <button class="btn btn-light text-primary fw-medium rounded-0 px-5 py-1 rounded-1 ms-auto">
-                    Login
-                </button>
 
                 <a 
-                    href="#" 
-                    class="d-none d-sm-flex align-items-center gap-2 text-decoration-none text-light px-3"
+                    href="#"
+                    class="d-none d-lg-block p-1 bg-white"
                     role="button"
                 >
-                    <span class="fw-medium">More</span>
-                    <img src="/assets/icon/dropdown.svg" alt="Down arrow">
-                </a>
-
-                <a 
-                    href="#" 
-                    class="d-none d-md-flex align-items-center gap-2 text-decoration-none text-light px-3"
-                    role="button"
-                >
-                    <img src="/assets/icon/cart.svg" alt="Shopping cart">
-                    <span class="fw-medium">Cart</span>
+                    <img 
+                        src="/assets/image/products/offer-card.png" 
+                        alt="offer card"
+                        class="h-100 offer-card"
+                    >
                 </a>
             </div>
-        </header>
-
-        <main>
-            <div class="container-fluid bg-white">
-                <div class="container d-flex justify-content-evenly align-items-center p-2 gap-5  overflow-x-auto">
-                    <a 
-                        href="#" 
-                        class="categories d-flex flex-column align-items-center justify-content-center text-black text-decoration-none"
-                        aria-label="Categorie Grocery"
-                        role="button"
-                    >
-                        <img src="/assets/image/categories/grocery.svg" alt="Grocery">
-                        <span>Grocery</span>
-                    </a>
-                    <a 
-                        href="#" 
-                        class="categories d-flex flex-column align-items-center justify-content-center text-black text-decoration-none"
-                        aria-label="Categorie Mobiles"
-                        role="button"
-                    >
-                        <img src="/assets/image/categories/mobiles.svg" alt="Mobiles">
-                        <span>Mobiles</span>
-                    </a>
-                    <a 
-                        href="#" 
-                        class="categories d-flex flex-column align-items-center justify-content-center text-black text-decoration-none"
-                        aria-label="Categorie Fashion"
-                        role="button"
-                    >
-                        <img src="/assets/image/categories/fashion.svg" alt="Fashion">
-                        <span>Fashion</span>
-                    </a>
-                    <a 
-                        href="#" 
-                        class="categories d-flex flex-column align-items-center justify-content-center text-black text-decoration-none"
-                        aria-label="Categorie Electronics"
-                        role="button"
-                    >
-                        <img src="/assets/image/categories/electronics.svg" alt="Fashion">
-                        <span>Electronics</span>
-                    </a>
-                    <a 
-                        href="#" 
-                        class="categories d-flex flex-column align-items-center justify-content-center text-black text-decoration-none"
-                        aria-label="Categorie Home"
-                        role="button"
-                    >
-                        <img src="/assets/image/categories/home.svg" alt="Home">
-                        <span>Home</span>
-                    </a>
-                    <a 
-                        href="#" 
-                        class="categories d-flex flex-column align-items-center justify-content-center text-black text-decoration-none"
-                        aria-label="Categorie Appliances"
-                        role="button"
-                    >
-                        <img src="/assets/image/categories/appliances.svg" alt="Appliances">
-                        <span>Appliances</span>
-                    </a>
-                    <a 
-                        href="#" 
-                        class="categories d-flex flex-column align-items-center justify-content-center text-black text-decoration-none"
-                        aria-label="Categorie Travel"
-                        role="button"
-                    >
-                        <img src="/assets/image/categories/travel.svg" alt="Travel">
-                        <span>Travel</span>
-                    </a>
-                    <a 
-                        href="#" 
-                        class="categories d-flex flex-column align-items-center justify-content-center text-black text-decoration-none"
-                        aria-label="Categorie Beauty, Toys & more"
-                        role="button"
-                    >
-                        <img src="/assets/image/categories/beauty-toys.svg" alt="Beauty, Toys & more">
-                        <span>Beauty, Toys & more</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="product-section container-fluid p-2">
-
+            <div class="products-section container-fluid p-2">
                 <div class="product-section-1 container my-2 d-flex gap-2 p-0">
-                    <div class="product-section-2 flex-grow-1 bg-white d-flex flex-column justify-content-start position-relative overflow-hidden">
+                    <div class="products-section-2 flex-grow-1 bg-white d-flex flex-column justify-content-start position-relative overflow-hidden">
 
-                        <div class="announcement border-bottom px-3 d-flex align-items-center justify-content-between">
-                            <p class="d-flex align-items-center justify-content-center gap-2 m-0">
-                                <span class="fs-4">Deals of the Day</span>
-                                <img 
-                                    src="/assets/icon/clock.svg" 
-                                    class="clock-img ms-2 ratio-1x1" 
-                                    alt="">
-                                <span class="text-secondary">22 : 07 : 36 Left</span>
+                        <div class="announcement-1 border-bottom px-3 d-flex align-items-center justify-content-between">
+                            <p class="d-flex flex-column m-0">
+                                <span class="fs-4">Books And music Instruments</span>
+                                <span class="text-secondary">Shop Now!</span>
                             </p>
                             <button class="d-none d-sm-block btn rounded-1 btn-primary fw-medium px-4 py-2">
                                 VIEW ALL
@@ -181,256 +304,124 @@
                                 href="#"
                                 class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
                                 role="button"
-                                aria-labelledby="product-watch"
+                                aria-labelledby="product-harmonium"
                             >
                                 <div class="product-feed-image">
                                     <img 
-                                        src="/assets/image/products/watch.png" 
-                                        alt="watch"
+                                        src="/assets/image/products/harmonium.png" 
+                                        alt="harmonium"
                                         class="w-100 h-100 object-fit-contain"
                                         loading="lazy"
                                     >
                                 </div>
-                                <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-watch">Casio, Fastrack, Sonata...</p>
-                                <p class="product-font-size m-0 text-success">Upto 80%+Extra 10%Off</p>
-                                <p class="product-font-size m-0 text-secondary">Knockout Deals!</p>
+                                <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-harmonium">Harmoniums</p>
+                                <p class="product-font-size m-0 text-success">Upto 60% Off</p>
+                                <p class="product-font-size m-0 text-secondary">Shop Now!</p>
                             </a>
                             
                             <a 
                                 href="#"
                                 class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
                                 role="button"
-                                aria-labelledby="product-home-temple"
+                                aria-labelledby="product-flute"
                             >
                                 <div class="product-feed-image">
                                     <img 
-                                        src="/assets/image/products/temple.png" 
-                                        alt="home temple"
+                                        src="/assets/image/products/flute.png" 
+                                        alt="flute"
                                         class="w-100 h-100 object-fit-contain"
                                         loading="lazy"
                                     >
                                 </div>
-                                <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-home-temple">Home temples & more</p>
-                                <p class="product-font-size m-0 text-success">Extra 10% off</p>
-                                <p class="product-font-size m-0 text-secondary">Space Saving furniture</p>
+                                <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-flute">Flutes</p>
+                                <p class="product-font-size m-0 text-success">Up to 80% Off</p>
+                                <p class="product-font-size m-0 text-secondary">Shop now!</p>
                             </a>
 
                             <a 
                                 href="#"
                                 class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
                                 role="button"
-                                aria-labelledby="product-tablet-cases"
+                                aria-labelledby="product-guitars-1"
                             >
                                 <div class="product-feed-image">
                                     <img 
-                                        src="/assets/image/products/tablet-cover.png" 
-                                        alt="teblet case"
+                                        src="/assets/image/products/guitar-1.png" 
+                                        alt="guitars"
                                         class="w-100 h-100 object-fit-contain"
                                         loading="lazy"
                                     >
                                 </div>
-                                <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-tablet-cases">Premium Tablet Cases</p>
-                                <p class="product-font-size m-0 text-success">Extra 10% Off</p>
-                                <p class="product-font-size m-0 text-secondary">For All Top Models</p>
+                                <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-guitars-1">Acoustic Guitars</p>
+                                <p class="product-font-size m-0 text-success">Starting ₹1799</p>
+                                <p class="product-font-size m-0 text-secondary">Juarez, Revel</p>
                             </a>
 
                             <a 
                                 href="#"
                                 class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
                                 role="button"
-                                aria-labelledby="product-home-decoration"
+                                aria-labelledby="guitar-servicekit"
                             >
                                 <div class="product-feed-image">
                                     <img 
-                                        src="/assets/image/products/home-decoration.png" 
-                                        alt="home decoration"
+                                        src="/assets/image/products/guitar-servicekit.png" 
+                                        alt="guitar servicekit"
                                         class="w-100 h-100 object-fit-contain"
                                         loading="lazy"
                                     >
                                 </div>
-                                <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-home-decoration">Best Of Home Decor</p>
-                                <p class="product-font-size m-0 text-success">From ₹79</p>
-                                <p class="product-font-size m-0 text-secondary">Lowest Price Ever</p>
+                                <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="guitar-servicekit">Musical Accessories</p>
+                                <p class="product-font-size m-0 text-success">Up to 80% Off</p>
+                                <p class="product-font-size m-0 text-secondary">Shop Now!</p>
                             </a>
 
                             <a 
                                 href="#"
                                 class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
                                 role="button"
-                                aria-labelledby="product-lava-keypad-mobile"
+                                aria-labelledby="product-microphone-accessories"
                             >
                                 <div class="product-feed-image">
                                     <img 
-                                        src="/assets/image/products/keypad-phone.png" 
-                                        alt="lava keypad mobile"
+                                        src="/assets/image/products/sheet-music-stand.png" 
+                                        alt="microphone accessories"
                                         class="w-100 h-100 object-fit-contain"
                                         loading="lazy"
                                     >
                                 </div>
-                                <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-lava-keypad-mobile">LAVA A1500</p>
-                                <p class="product-font-size m-0 text-success">Flat ₹830 Off</p>
-                                <p class="product-font-size m-0 text-secondary">Now ₹999</p>
+                                <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-microphone-accessories">Microphone Accessories</p>
+                                <p class="product-font-size m-0 text-success">Up to 80% Off</p>
+                                <p class="product-font-size m-0 text-secondary">Shop Now!</p>
                             </a>
 
+                            <a 
+                                href="#"
+                                class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                                role="button"
+                                aria-labelledby="product-guitars-2"
+                            >
+                                <div class="product-feed-image">
+                                    <img 
+                                        src="/assets/image/products/guitar-2.png" 
+                                        alt="guitars"
+                                        class="w-100 h-100 object-fit-contain"
+                                        loading="lazy"
+                                    >
+                                </div>
+                                <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-guitars-2">Acoustic Guitars</p>
+                                <p class="product-font-size m-0 text-success">Starting ₹1999</p>
+                                <p class="product-font-size m-0 text-secondary">By Revel</p>
+                            </a>
                         </div>
 
                         <button class="btn btn-light fw-semibold shadow-lg rounded-0 fs-3 position-absolute top-0 bottom-0 end-0 my-auto px-2 h-25">
                             >
                         </button>
                     </div>
-
-                    <a 
-                        href="#"
-                        class="d-none d-lg-block p-1 bg-white"
-                        role="button"
-                    >
-                        <img 
-                            src="/assets/image/products/offer-card.png" 
-                            alt="offer card"
-                            class="h-100 offer-card"
-                        >
-                    </a>
                 </div>
-
-                <div class="products-section container-fluid p-2">
-                    <div class="product-section-1 container my-2 d-flex gap-2 p-0">
-                        <div class="products-section-2 flex-grow-1 bg-white d-flex flex-column justify-content-start position-relative overflow-hidden">
-    
-                            <div class="announcement-1 border-bottom px-3 d-flex align-items-center justify-content-between">
-                                <p class="d-flex flex-column m-0">
-                                    <span class="fs-4">Books And music Instruments</span>
-                                    <span class="text-secondary">Shop Now!</span>
-                                </p>
-                                <button class="d-none d-sm-block btn rounded-1 btn-primary fw-medium px-4 py-2">
-                                    VIEW ALL
-                                </button>
-                            </div>
-
-                            <div class="product-feed-1 flex-grow-1 d-flex gap-5 p-3">
-
-                                <a 
-                                    href="#"
-                                    class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
-                                    role="button"
-                                    aria-labelledby="product-harmonium"
-                                >
-                                    <div class="product-feed-image">
-                                        <img 
-                                            src="/assets/image/products/harmonium.png" 
-                                            alt="harmonium"
-                                            class="w-100 h-100 object-fit-contain"
-                                            loading="lazy"
-                                        >
-                                    </div>
-                                    <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-harmonium">Harmoniums</p>
-                                    <p class="product-font-size m-0 text-success">Upto 60% Off</p>
-                                    <p class="product-font-size m-0 text-secondary">Shop Now!</p>
-                                </a>
-                                
-                                <a 
-                                    href="#"
-                                    class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
-                                    role="button"
-                                    aria-labelledby="product-flute"
-                                >
-                                    <div class="product-feed-image">
-                                        <img 
-                                            src="/assets/image/products/flute.png" 
-                                            alt="flute"
-                                            class="w-100 h-100 object-fit-contain"
-                                            loading="lazy"
-                                        >
-                                    </div>
-                                    <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-flute">Flutes</p>
-                                    <p class="product-font-size m-0 text-success">Up to 80% Off</p>
-                                    <p class="product-font-size m-0 text-secondary">Shop now!</p>
-                                </a>
-    
-                                <a 
-                                    href="#"
-                                    class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
-                                    role="button"
-                                    aria-labelledby="product-guitars-1"
-                                >
-                                    <div class="product-feed-image">
-                                        <img 
-                                            src="/assets/image/products/guitar-1.png" 
-                                            alt="guitars"
-                                            class="w-100 h-100 object-fit-contain"
-                                            loading="lazy"
-                                        >
-                                    </div>
-                                    <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-guitars-1">Acoustic Guitars</p>
-                                    <p class="product-font-size m-0 text-success">Starting ₹1799</p>
-                                    <p class="product-font-size m-0 text-secondary">Juarez, Revel</p>
-                                </a>
-    
-                                <a 
-                                    href="#"
-                                    class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
-                                    role="button"
-                                    aria-labelledby="guitar-servicekit"
-                                >
-                                    <div class="product-feed-image">
-                                        <img 
-                                            src="/assets/image/products/guitar-servicekit.png" 
-                                            alt="guitar servicekit"
-                                            class="w-100 h-100 object-fit-contain"
-                                            loading="lazy"
-                                        >
-                                    </div>
-                                    <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="guitar-servicekit">Musical Accessories</p>
-                                    <p class="product-font-size m-0 text-success">Up to 80% Off</p>
-                                    <p class="product-font-size m-0 text-secondary">Shop Now!</p>
-                                </a>
-    
-                                <a 
-                                    href="#"
-                                    class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
-                                    role="button"
-                                    aria-labelledby="product-microphone-accessories"
-                                >
-                                    <div class="product-feed-image">
-                                        <img 
-                                            src="/assets/image/products/sheet-music-stand.png" 
-                                            alt="microphone accessories"
-                                            class="w-100 h-100 object-fit-contain"
-                                            loading="lazy"
-                                        >
-                                    </div>
-                                    <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-microphone-accessories">Microphone Accessories</p>
-                                    <p class="product-font-size m-0 text-success">Up to 80% Off</p>
-                                    <p class="product-font-size m-0 text-secondary">Shop Now!</p>
-                                </a>
-
-                                <a 
-                                    href="#"
-                                    class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
-                                    role="button"
-                                    aria-labelledby="product-guitars-2"
-                                >
-                                    <div class="product-feed-image">
-                                        <img 
-                                            src="/assets/image/products/guitar-2.png" 
-                                            alt="guitars"
-                                            class="w-100 h-100 object-fit-contain"
-                                            loading="lazy"
-                                        >
-                                    </div>
-                                    <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-guitars-2">Acoustic Guitars</p>
-                                    <p class="product-font-size m-0 text-success">Starting ₹1999</p>
-                                    <p class="product-font-size m-0 text-secondary">By Revel</p>
-                                </a>
-                            </div>
-
-                            <button class="btn btn-light fw-semibold shadow-lg rounded-0 fs-3 position-absolute top-0 bottom-0 end-0 my-auto px-2 h-25">
-                                >
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
             </div>
-        </main>
+        </div>
+    </main>
 </body>
 </html>
