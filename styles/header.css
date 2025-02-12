@@ -2,14 +2,21 @@ header {
     height: 4rem;
 }
 
-.searchbar {
+.searchbar-div {
     max-width: 35.5rem;
-    outline: none;
+}
 
-    background-image: url('/asset/icon/search.svg');
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: 97%;
+.searchbar {
+    outline: none;
+}
+
+.searchbar-div>img {
+    width: 1.3rem;
+    top: 0.3rem;
+    bottom: 0;
+    right: 0.5rem;
+    margin: auto;
+    cursor: pointer;
 }
 
 .searchbar::placeholder {
