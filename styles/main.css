@@ -25,3 +25,16 @@
 .clock-img {
     width: 1.5rem;
 }
+
+.product-feed-1 {
+    width: 100%;
+}
+
+.product-feed-image {
+    width: 10rem;
+    height: 10rem;
+}
+
+.product-font-size {
+    font-size: 0.9rem;
+}
