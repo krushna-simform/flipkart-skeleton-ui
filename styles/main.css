@@ -59,6 +59,10 @@ body {
     text-overflow: ellipsis;
 }
 
+.product-feed-1>a p:nth-of-type(3) {
+    color: #999999;
+}
+
 .product-feed-image {
         width: 10rem;
         height: 10rem;
