@@ -35,6 +35,9 @@ body {
     min-height: 4.5rem;
 }
 
+.announcement span, .announcement-1 span {
+    white-space: nowrap;
+}
 .offer-card {
     cursor: pointer;
 }
