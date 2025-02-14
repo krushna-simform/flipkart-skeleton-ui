@@ -20,7 +20,7 @@ body {
 }
 
 .product-section-1 {
-    height: 22rem;
+    min-height: 22rem;
 }
 
 .product-section-2 {
@@ -54,25 +54,24 @@ body {
     min-width: 12rem;
 }
 
-.product-feed-1 p {
-    width: 100%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;       
-    text-overflow: ellipsis;
-}
-
 .product-feed-1>a p:nth-of-type(3) {
     color: #999999;
 }
 
 .product-feed-image {
-    width: 10rem;
-    height: 10rem;
+    max-width: 10rem;
+    min-width: 5rem;
+    max-height: 10rem;
+    aspect-ratio: 1;
 }
 
 .product-font-size {
     font-size: 0.9rem;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;       
+    text-overflow: ellipsis;
 }
 
 main .right-scroll-btn {
@@ -81,4 +80,8 @@ main .right-scroll-btn {
 
 .hide-scroll-bar::-webkit-scrollbar {
     display: none;
+}
+
+.right-arrow {
+    width: 1.5rem;
 }
