@@ -34,6 +34,7 @@
                     class="h-100 "  
                 >
             </a>
+
             <div class="searchbar-div flex-grow-1 h-50 d-none d-lg-block position-relative">
                 <input 
                     type="text" 
@@ -53,6 +54,7 @@
             <button class="btn btn-light text-primary fw-medium rounded-0 px-5 py-1 rounded-1 ms-auto">
                 Login
             </button>
+
             <a 
                 href="#" 
                 class="d-none d-sm-flex align-items-center gap-2 text-decoration-none text-light px-3"
@@ -61,6 +63,7 @@
                 <span class="fw-medium">More</span>
                 <img src="/assets/icon/dropdown.svg" alt="Down arrow">
             </a>
+
             <a 
                 href="#" 
                 class="d-none d-md-flex align-items-center gap-2 text-decoration-none text-light px-3"
@@ -71,9 +74,12 @@
             </a>
         </div>
     </header>
+
     <main>
-        <div class="container-fluid bg-white shadow-sm">
-            <div class="container d-flex justify-content-evenly align-items-center p-2 gap-4  overflow-x-auto">
+
+        <!-- categories component -->
+        <div class="container-fluid bg-white shadow-sm p-0">
+            <div class="container-lg d-flex justify-content-evenly align-items-center p-2 gap-4  overflow-x-auto">
                 <a 
                     href="#" 
                     class="categories d-flex flex-column align-items-center justify-content-center text-black text-decoration-none"
@@ -200,9 +206,12 @@
                 </a>
             </div>
         </div>
-        <div class="product-section container-fluid p-2">
+
+        <!-- Deals of the day product section -->
+        <div class="product-section container-fluid px-md-3 p-0">
             <div class="product-section-1 container-lg my-2 d-flex gap-2 p-0 shadow-sm">
                 <div class="product-section-2 flex-grow-1 bg-white d-flex flex-column justify-content-start position-relative overflow-hidden">
+
                     <div class="announcement border-bottom px-3 d-flex align-items-center justify-content-between">
                         <p class="d-flex align-items-center justify-content-center gap-2 m-0">
                             <span class="fs-4">Deals of the Day</span>
@@ -216,6 +225,7 @@
                             VIEW ALL
                         </button>
                     </div>
+                    
                     <div class="product-feed-1 flex-grow-1 d-flex gap-4 p-3">
                         <a 
                             href="#"
@@ -333,143 +343,145 @@
                     >
                 </a>
             </div>
-            <div class="products-section container-fluid p-0 mt-3">
-                <div class="product-section-1 container-lg my-2 d-flex gap-2 p-0 shadow-sm">
-                    <div class="products-section-2 flex-grow-1 bg-white d-flex flex-column justify-content-start position-relative overflow-hidden">
+        </div>
 
-                        <div class="announcement-1 border-bottom px-3 d-flex align-items-center justify-content-between">
-                            <p class="d-flex flex-column m-0">
-                                <span class="fs-4">Books And music Instruments</span>
-                                <span class="text-secondary">Shop Now!</span>
-                            </p>
-                            <button class="d-none d-sm-block btn rounded-1 btn-primary fw-medium px-4 py-2">
-                                VIEW ALL
-                            </button>
-                        </div>
+        <!-- Books and music Instruments -->
+        <div class="product-section container-fluid mt-4 px-md-3 p-0">
+            <div class="product-section-1 container-lg my-2 d-flex gap-2 p-0 shadow-sm">
+                <div class="products-section-2 flex-grow-1 bg-white d-flex flex-column justify-content-start position-relative overflow-hidden">
 
-                        <div class="product-feed-1 flex-grow-1 d-flex gap-1 p-3">
-                            <a 
-                                href="#"
-                                class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
-                                role="button"
-                                aria-labelledby="product-harmonium"
-                            >
-                                <div class="product-feed-image">
-                                    <img 
-                                        src="/assets/image/products/harmonium.png" 
-                                        alt="harmonium"
-                                        class="w-100 h-100 object-fit-contain"
-                                        loading="lazy"
-                                    >
-                                </div>
-                                <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-harmonium">Harmoniums</p>
-                                <p class="product-font-size m-0 text-success">Upto 60% Off</p>
-                                <p class="product-font-size m-0">Shop Now!</p>
-                            </a>
-                            
-                            <a 
-                                href="#"
-                                class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
-                                role="button"
-                                aria-labelledby="product-flute"
-                            >
-                                <div class="product-feed-image">
-                                    <img 
-                                        src="/assets/image/products/flute.png" 
-                                        alt="flute"
-                                        class="w-100 h-100 object-fit-contain"
-                                        loading="lazy"
-                                    >
-                                </div>
-                                <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-flute">Flutes</p>
-                                <p class="product-font-size m-0 text-success">Up to 80% Off</p>
-                                <p class="product-font-size m-0">Shop now!</p>
-                            </a>
-
-                            <a 
-                                href="#"
-                                class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
-                                role="button"
-                                aria-labelledby="product-guitars-1"
-                            >
-                                <div class="product-feed-image">
-                                    <img 
-                                        src="/assets/image/products/guitar-1.png" 
-                                        alt="guitars"
-                                        class="w-100 h-100 object-fit-contain"
-                                        loading="lazy"
-                                    >
-                                </div>
-                                <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-guitars-1">Acoustic Guitars</p>
-                                <p class="product-font-size m-0 text-success">Starting ₹1799</p>
-                                <p class="product-font-size m-0">Juarez, Revel</p>
-                            </a>
-
-                            <a 
-                                href="#"
-                                class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
-                                role="button"
-                                aria-labelledby="guitar-servicekit"
-                            >
-                                <div class="product-feed-image">
-                                    <img 
-                                        src="/assets/image/products/guitar-servicekit.png" 
-                                        alt="guitar servicekit"
-                                        class="w-100 h-100 object-fit-contain"
-                                        loading="lazy"
-                                    >
-                                </div>
-                                <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="guitar-servicekit">Musical Accessories</p>
-                                <p class="product-font-size m-0 text-success">Up to 80% Off</p>
-                                <p class="product-font-size m-0">Shop Now!</p>
-                            </a>
-
-                            <a 
-                                href="#"
-                                class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
-                                role="button"
-                                aria-labelledby="product-microphone-accessories"
-                            >
-                                <div class="product-feed-image">
-                                    <img 
-                                        src="/assets/image/products/sheet-music-stand.png" 
-                                        alt="microphone accessories"
-                                        class="w-100 h-100 object-fit-contain"
-                                        loading="lazy"
-                                    >
-                                </div>
-                                <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-microphone-accessories">Microphone Accessories</p>
-                                <p class="product-font-size m-0 text-success">Up to 80% Off</p>
-                                <p class="product-font-size m-0">Shop Now!</p>
-                            </a>
-
-                            <a 
-                                href="#"
-                                class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
-                                role="button"
-                                aria-labelledby="product-guitars-2"
-                            >
-                                <div class="product-feed-image">
-                                    <img 
-                                        src="/assets/image/products/guitar-2.png" 
-                                        alt="guitars"
-                                        class="w-100 h-100 object-fit-contain"
-                                        loading="lazy"
-                                    >
-                                </div>
-                                <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-guitars-2">Acoustic Guitars</p>
-                                <p class="product-font-size m-0 text-success">Starting ₹1999</p>
-                                <p class="product-font-size m-0">By Revel</p>
-                            </a>
-                        </div>
-
-                        <button 
-                            class="right-scroll-btn btn btn-light fw-semibold rounded-0 fs-3 position-absolute top-0 bottom-0 end-0 my-auto px-2 h-25"
-                            aria-label="Scroll right"
-                        >
-                            >
+                    <div class="announcement-1 border-bottom px-3 d-flex align-items-center justify-content-between">
+                        <p class="d-flex flex-column m-0">
+                            <span class="fs-4">Books And music Instruments</span>
+                            <span class="text-secondary">Shop Now!</span>
+                        </p>
+                        <button class="d-none d-sm-block btn rounded-1 btn-primary fw-medium px-4 py-2">
+                            VIEW ALL
                         </button>
                     </div>
+
+                    <div class="product-feed-1 flex-grow-1 d-flex gap-1 p-3">
+                        <a 
+                            href="#"
+                            class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                            role="button"
+                            aria-labelledby="product-harmonium"
+                        >
+                            <div class="product-feed-image">
+                                <img 
+                                    src="/assets/image/products/harmonium.png" 
+                                    alt="harmonium"
+                                    class="w-100 h-100 object-fit-contain"
+                                    loading="lazy"
+                                >
+                            </div>
+                            <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-harmonium">Harmoniums</p>
+                            <p class="product-font-size m-0 text-success">Upto 60% Off</p>
+                            <p class="product-font-size m-0">Shop Now!</p>
+                        </a>
+                        
+                        <a 
+                            href="#"
+                            class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                            role="button"
+                            aria-labelledby="product-flute"
+                        >
+                            <div class="product-feed-image">
+                                <img 
+                                    src="/assets/image/products/flute.png" 
+                                    alt="flute"
+                                    class="w-100 h-100 object-fit-contain"
+                                    loading="lazy"
+                                >
+                            </div>
+                            <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-flute">Flutes</p>
+                            <p class="product-font-size m-0 text-success">Up to 80% Off</p>
+                            <p class="product-font-size m-0">Shop now!</p>
+                        </a>
+
+                        <a 
+                            href="#"
+                            class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                            role="button"
+                            aria-labelledby="product-guitars-1"
+                        >
+                            <div class="product-feed-image">
+                                <img 
+                                    src="/assets/image/products/guitar-1.png" 
+                                    alt="guitars"
+                                    class="w-100 h-100 object-fit-contain"
+                                    loading="lazy"
+                                >
+                            </div>
+                            <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-guitars-1">Acoustic Guitars</p>
+                            <p class="product-font-size m-0 text-success">Starting ₹1799</p>
+                            <p class="product-font-size m-0">Juarez, Revel</p>
+                        </a>
+
+                        <a 
+                            href="#"
+                            class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                            role="button"
+                            aria-labelledby="guitar-servicekit"
+                        >
+                            <div class="product-feed-image">
+                                <img 
+                                    src="/assets/image/products/guitar-servicekit.png" 
+                                    alt="guitar servicekit"
+                                    class="w-100 h-100 object-fit-contain"
+                                    loading="lazy"
+                                >
+                            </div>
+                            <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="guitar-servicekit">Musical Accessories</p>
+                            <p class="product-font-size m-0 text-success">Up to 80% Off</p>
+                            <p class="product-font-size m-0">Shop Now!</p>
+                        </a>
+
+                        <a 
+                            href="#"
+                            class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                            role="button"
+                            aria-labelledby="product-microphone-accessories"
+                        >
+                            <div class="product-feed-image">
+                                <img 
+                                    src="/assets/image/products/sheet-music-stand.png" 
+                                    alt="microphone accessories"
+                                    class="w-100 h-100 object-fit-contain"
+                                    loading="lazy"
+                                >
+                            </div>
+                            <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-microphone-accessories">Microphone Accessories</p>
+                            <p class="product-font-size m-0 text-success">Up to 80% Off</p>
+                            <p class="product-font-size m-0">Shop Now!</p>
+                        </a>
+
+                        <a 
+                            href="#"
+                            class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                            role="button"
+                            aria-labelledby="product-guitars-2"
+                        >
+                            <div class="product-feed-image">
+                                <img 
+                                    src="/assets/image/products/guitar-2.png" 
+                                    alt="guitars"
+                                    class="w-100 h-100 object-fit-contain"
+                                    loading="lazy"
+                                >
+                            </div>
+                            <p class="product-font-size m-0 mt-auto fw-medium text-dark" id="product-guitars-2">Acoustic Guitars</p>
+                            <p class="product-font-size m-0 text-success">Starting ₹1999</p>
+                            <p class="product-font-size m-0">By Revel</p>
+                        </a>
+                    </div>
+
+                    <button 
+                        class="right-scroll-btn btn btn-light fw-semibold rounded-0 fs-3 position-absolute top-0 bottom-0 end-0 my-auto px-2 h-25"
+                        aria-label="Scroll right"
+                    >
+                        >
+                    </button>
                 </div>
             </div>
         </div>
