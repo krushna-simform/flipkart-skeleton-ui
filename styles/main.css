@@ -1,0 +1,91 @@
+body {
+    background-color: #f1f2f4;
+}
+
+.categories{
+    min-width: 6rem;
+}
+
+.categories>img {
+    width: 4rem;
+}
+
+.categories span {
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.dropdown-svg {
+    width: 1.2rem;
+}
+
+.product-section-1 {
+    min-height: 22rem;
+}
+
+.product-section-2 {
+    max-width: 100%;
+}
+
+.announcement {
+    min-height: 4rem;
+}
+
+.announcement-1 {
+    min-height: 4.5rem;
+}
+
+.announcement span, .announcement-1 span {
+    white-space: nowrap;
+}
+.offer-card {
+    cursor: pointer;
+}
+
+.clock-img {
+    width: 1.5rem;
+}
+
+.product-feed-1 {
+    width: 100%;
+}
+
+.product-feed-1>a {
+    min-width: 12rem;
+}
+
+.product-feed-1>a p:nth-of-type(3) {
+    color: #999999;
+}
+
+.product-feed-image {
+    max-width: 10rem;
+    min-width: 5rem;
+    max-height: 10rem;
+    aspect-ratio: 1;
+}
+
+.product-font-size {
+    font-size: 0.9rem;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;       
+    text-overflow: ellipsis;
+}
+
+main .right-scroll-btn {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.hide-scroll-bar {
+    scrollbar-width: none;
+}
+
+.hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+}
+
+.right-arrow {
+    width: 1.5rem;
+}
